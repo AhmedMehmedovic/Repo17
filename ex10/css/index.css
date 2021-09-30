@@ -1,0 +1,168 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.signin {
+    margin-top: 45px;
+}
+#wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+#left {
+  align-items: center;
+  background-color: #0e1013;
+  flex: 4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#right {
+  text-align: center;
+  background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+  background-size: cover;
+  flex: 6;
+  height: 100%;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 100%;
+}
+
+label {
+  font: caption;
+  text-align: center;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+
+.text-input {
+  background-color: rgb(11, 15, 31);
+  color: white;
+  width: 100%;
+  height: 40px;
+  border-radius: 25px;
+}
+
+#signin {
+  align-items: center;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+#main-footer {
+  text-align: center;
+  width: 100%;
+}
+
+form {
+  margin-top: 10%;
+  width: 60%;
+  
+}
+
+form div:first-child {
+  padding-bottom: 20px;
+}
+
+.primary-btn {
+  background: #0074ab;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  border: 0;
+  font-size: 15px;
+}
+
+#links a:first-child {
+  display: block;
+  margin-bottom: 15px;
+  color: #2ea0d6;
+  text-decoration: none;
+  text-align: center;
+}
+
+#links a:last-child {
+  color: #2ea0d6;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hr-bar {
+  display: block;
+  width: 100%;
+}
+.bar {
+  background-color: rgb(90, 90, 90);
+  width: 60%;
+  height: 0.1px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.secondary-btn {
+  background-color: rgb(60, 61, 65);
+  width: 60%;
+  height: 35px;
+  color: white;
+  text-decoration: none;
+  font-size: 20;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding-top: 15px;
+  border-radius: 3px;
+}
+
+#main-footer {
+  color: rgb(141, 141, 141);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#main-footer div a {
+  color: rgb(141, 141, 141);
+  margin: 10px;
+}
+
+#showcase-content {
+  margin-top: 35%;
+}
+
+.showcase-text {
+  font-size: 32pt;
+  color: whitesmoke;
+}
+
+#showcase-content .secondary-btn {
+  background-color: rgb(60, 61, 65);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  width: 50%;
+  height: 35px;
+}
